@@ -1,0 +1,254 @@
+
+
+body{
+	/*
+    background-image: url(../img/chi.png);
+    background-repeat: repeat-x;
+    background-color: red;
+    */
+    /*
+    background-image: url(../img/tiger-face-jerry-winick.jpg);
+    background-repeat: repeat-x;
+    */
+    
+    /*background-image: url(../img/Urban_Background.jpg);*/
+    
+background-image: url(../img/background_tiger.jpg);
+background-repeat: no-repeat;
+background-color: #000000;
+background-position-x: 17.5%;
+    
+}
+
+/*Allow some margin/padding so background image is visible*/
+#site_contents{
+	margin-left: 9.5%;
+	margin-right: 9.5%;
+}
+
+/*Header formatting*/
+header{
+	height: 10em;
+}
+
+.chistar_logo{
+	background-image: url(../img/chi_star.png); 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+.logosection{
+	float: left;
+	font-family: "Ostrich Sans",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3.5em;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	color: white;
+}
+
+.starsection{
+	float: right;
+	font-size: 4rem;
+	margin-top: 2.5rem;
+	right: 2rem;
+	line-height: 0.5rem;
+	color: #FFFFFF;
+}
+
+.navsection-wrap{
+	float: right;
+	margin-bottom: 6px;
+/*for small view , clear:both; float:left;*/
+}
+
+.navsection{
+	font-family: "League Gothic",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	float: left;
+}
+
+.navsection ul{
+}
+
+.navsection ul li{
+	border-left: 0.25em solid #FFFFFF;
+	width: 1.2em;
+	height: 6.0em;
+	float: right;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-left: 0.5em;
+}
+
+
+.navsection ul li a{
+	color: inherit;
+	text-decoration: none;
+
+}
+
+.navsection ul li a div{
+	max-width: 20px;
+	transform: rotate(90deg);
+}
+
+/*Sub Header formatting*/
+#subHeaderRow{
+	font-family: "League Gothic",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	margin-bottom: 0.75em;
+	margin-left: 0.5em;
+	clear: both;
+}
+#subHeaderRow div{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#subHeaderRow div h1{
+font-size: 2em;
+padding: 4px;
+}
+
+
+footer{
+	font-family: "League Gothic",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #FFFFFF;
+	clear: both;
+	float: left;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+/*Picture box*/
+.box_pic{
+	min-height: 320px;
+	width: 320px;
+	margin: 0.50em;
+	background-color: #FFFFFF;
+	float: left;
+}
+.box_pic ul{
+	font-family: "League Gothic",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-left: 4px;
+	padding-bottom: 1px;
+}
+
+.box_pic div{
+	width: 100%;
+	text-align: center;
+}
+
+.box_pic div img{
+	width: 300px;
+	height: 300px;
+	padding: 5px 5px 5px 5px;
+}
+
+
+
+
+/*Page themes*/
+
+.themeBackDog{
+	background-color: #7B7554;
+	color: #FFFFFF;
+
+}
+.themeHeaderDog{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+
+.themeBackCat{
+	background-color: #5B85AA;
+	color: #FFFFFF;
+
+}
+.themeHeaderCat{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+
+.themeBackRat{
+	background-color: #F46036;
+	color: #F8DDA4;
+
+}
+.themeHeaderRat{
+	background-color: transparent;
+	color: #F8DDA4;
+}
+
+.themeBackPigeon{
+	background-color: #414770;
+	color: #FFFFFF;
+
+}
+.themeHeaderPigeon{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+.themeBackSquirrel{
+	background-color: #D45113;
+	color: #F8DDA4;
+
+}
+.themeHeaderSquirrel{
+	background-color: transparent;
+	color: #F8DDA4;
+}
+
+.themeBackCoyote{
+	background-color: #F9A03F;
+	color: #FFFFFF;
+
+}
+.themeHeaderCoyote{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+.themeBackRabbit{
+	background-color: #DBA8AC;
+	color: #FFFFFF;
+
+}
+.themeHeaderRabbit{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+
+
+.themeBackDeer{
+	background-color: #813405;
+	color: #F8DDA4;
+
+}
+.themeHeaderDeer{
+	background-color: transparent;
+	color: #F8DDA4;
+}
